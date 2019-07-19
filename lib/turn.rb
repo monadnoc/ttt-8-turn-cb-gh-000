@@ -7,8 +7,8 @@ def turn(board)
     input = gets.strip
     ind = input_to_index(input)
   end
-  # move(board, ind)
-  # display_board(board)
+  move(board, ind)
+  display_board(board)
 end
 
 def display_board(board)
